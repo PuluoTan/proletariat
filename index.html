@@ -8,7 +8,7 @@
         // 当页面加载完成后自动触发下载 PDF
         window.onload = function() {
             var link = document.createElement('a');
-            link.href = "D:\Book\Cloud\The People's Hotel\The People's Hotel.pdf"; // PDF 文件路径
+            link.href = "file:///D:/Book/Cloud/The%20People's%20Hotel/The%20People's%20Hotel.pdf"; // PDF 文件路径
             link.download = "The People's Hotel.pdf"; // 下载文件名称
             link.click(); // 模拟点击链接进行下载
         };
@@ -19,3 +19,4 @@
     <!-- 不需要显示链接，使用 JavaScript 在页面加载后自动触发下载 -->
 </body>
 </html>
+
